@@ -16,8 +16,8 @@ body {
     flex-direction: column;
     list-style: none;
     border-radius: 20px;
-    border: solid 4px rgb(47, 136, 208);
-    background-color: rgb(47, 136, 208);
+    border: solid 4px rgb(89, 158, 213);
+    background-color: rgb(89, 158, 213);
 }
 
 .recipes ul{

@@ -7,23 +7,31 @@ body {
     background-color:rgb(255, 202, 185)
 }
 
-.recipes ul{
+.recipes {
+    gap: 30px;
     align-items: center;
     justify-content: center;
     padding: 80px 150px ;
     display:  flex;
     flex-direction: column;
-    gap: 40px;
     list-style: none;
     border-radius: 20px;
     border: solid 4px rgb(47, 136, 208);
     background-color: rgb(47, 136, 208);
-    
+}
+
+.recipes ul{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
 
 }
 .recipes li{
-    margin: 0px;
-    padding: 0px;
+
     list-style: none;
 
 }

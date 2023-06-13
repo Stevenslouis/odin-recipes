@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    min-height: 100vh;
+    background-color:rgb(255, 202, 185)
+}
+
+.recipes ul{
+    align-items: center;
+    justify-content: center;
+    padding: 80px 150px ;
+    display:  flex;
+    flex-direction: column;
+    gap: 40px;
+    list-style: none;
+    border-radius: 20px;
+    border: solid 4px rgb(47, 136, 208);
+    background-color: rgb(47, 136, 208);
+    
+
+}
+.recipes li{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+
+}
+
+.recipes li a{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: large;
+}
